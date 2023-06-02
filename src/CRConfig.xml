@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><CrystalReportEngine-configuration>
+    <reportlocation>../..</reportlocation>
+    <timeout>10</timeout>
+
+    <ExternalFunctionLibraryClassNames>
+		<classname> </classname>
+		<classname> </classname>
+    </ExternalFunctionLibraryClassNames>
+
+<keycode>B6W64-01CS200-000HW7N-T6E1</keycode>
+<Javaserver-configuration>
+<DataDriverCommon>
+	<JavaDir>C:\Business Objects\j2sdk1.4.2_08\bin</JavaDir>
+    <Classpath>D:\app\yuehchung\oracle05\product\19.3.0\dbhome_5\jdbc\lib\ojdbc8.jar;C:\Business Objects\Common\3.5\java/lib/crlovmanifest.jar;C:\Business Objects\Common\3.5\java/lib/CRLOVExternal.jar;C:\Business Objects\Common\3.5\java/lib/CRDBJavaServerCommon.jar;C:\Business Objects\Common\3.5\java/lib/CRDBJavaServer.jar;C:\Business Objects\Common\3.5\java/lib/CRDBJDBCServer.jar;C:\Business Objects\Common\3.5\java/lib/CRDBXMLServer.jar;C:\Business Objects\Common\3.5\java/lib/CRDBJavaBeansServer.jar;C:\Business Objects\Common\3.5\java/lib/external/CRDBXMLExternal.jar;C:\Business Objects\Common\3.5\java/lib/external/log4j.jar;C:\Business Objects\Common\3.5\java/lib/cecore.jar;C:\Business Objects\Common\3.5\java/lib/celib.jar;C:\Business Objects\Common\3.5\java/lib/ebus405.jar;C:\Business Objects\Common\3.5\java/lib/corbaidl.jar;C:\Business Objects\Common\3.5\java/lib/external/freessl201.jar;C:\Business Objects\Common\3.5\java/lib/external/asn1.jar;C:\Business Objects\Common\3.5\java/lib/external/certj.jar;C:\Business Objects\Common\3.5\java/lib/external/jsafe.jar;C:\Business Objects\Common\3.5\java/lib/external/sslj.jar;${CLASSPATH}</Classpath>
+	<IORFileLocation>${TEMP}</IORFileLocation>
+	<JavaServerTimeout>1800</JavaServerTimeout>
+	<JavaServerStartupTimeout>30</JavaServerStartupTimeout>
+	<JVMMaxHeap>64000000</JVMMaxHeap>
+	<JVMMinHeap>32000000</JVMMinHeap>
+	<NumberOfThreads>100</NumberOfThreads>
+</DataDriverCommon>
+<JDBC>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<JDBCURL>jdbc:oracle:thin:tfbpg@//localhost:1521/orcl5</JDBCURL>
+	<JDBCClassName>oracle.jdbc.driver.OracleDriver</JDBCClassName>
+	<JDBCUserName>tfbpg</JDBCUserName>
+	<JNDIURL></JNDIURL>
+	<JNDIConnectionFactory></JNDIConnectionFactory>
+	<JNDIInitContext>/</JNDIInitContext>
+	<JNDIUserName></JNDIUserName>
+	<GenericJDBCDriver>
+		<Default>
+			<ServerType>UNKNOWN</ServerType>
+			<QuoteIdentifierOnOff>ON</QuoteIdentifierOnOff>
+			<StoredProcType>Standard</StoredProcType>
+			<LogonStyle>Standard</LogonStyle>
+		</Default>
+		<Sybase>
+			<ServerType>SYBASE</ServerType>
+			<QuoteIdentifierOnOff>OFF</QuoteIdentifierOnOff>
+			<DriverClassName>com.sybase.jdbc2.jdbc.SybDriver</DriverClassName>
+			<StoredProcType>Standard</StoredProcType>
+			<LogonStyle>MySQL</LogonStyle>
+		</Sybase>
+	</GenericJDBCDriver>
+</JDBC>
+<XML>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<PreReadNBytes>4096</PreReadNBytes>
+	<XMLLocalURL></XMLLocalURL>
+	<SchemaLocalURL></SchemaLocalURL>
+	<XMLHttpURL></XMLHttpURL>
+	<SchemaHttpURL></SchemaHttpURL>
+</XML>
+<JavaBeans>
+    <CacheRowSetSize>100</CacheRowSetSize>
+	<JavaBeansClassPath></JavaBeansClassPath>
+</JavaBeans>
+</Javaserver-configuration>
+</CrystalReportEngine-configuration>
