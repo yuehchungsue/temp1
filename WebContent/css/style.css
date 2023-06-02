@@ -1,0 +1,21 @@
+//body		{font:0.7em Verdana, Arial, Helvetica, sans-serif; star:expression(document.body.onselectstart = document.body.oncontextmenu = function(){return false;});}
+body		{font:0.7em Verdana, Arial, Helvetica, sans-serif;}
+td		{font:0.7em Verdana, Arial, Helvetica, sans-serif; line-height:15pt}
+fieldset	{padding-top:0px; padding-bottom:12px; padding-left:12px; padding-right:12px; margin-bottom:0px; display:block}
+legend		{padding-top:0px; padding-bottom:0px; padding-left:4px; padding-right:4px; margin:0px 0px 7px; vertical-align:middle; font-weight:bold; font-size:1em; color:#666666}
+input		{font-family:Arial; font-size:9pt}
+select		{font-family:Arial; font-size:9pt}
+
+a               {text-decoration:none}
+//a:link	{color:#666666; text-decoration:none}
+//a:visited	{color:#666666; text-decoration:none}
+//a:hover	{color:#000000; text-decoration:underline}
+//a:active	{color:#000000; text-decoration:none}
+
+.username	{font:0.6em Verdana, Arial, Helvetica, sans-serif; line-height:15pt}
+.password	{font:0.6em Verdana, Arial, Helvetica, sans-serif; line-height:15pt}
+.submit		{margin-top:4px; margin-bottom:4px; font-size:0.9em; height:28px; width:108px}
+
+.tree_out       {height:16px; padding:2 3 0 3; color:#000000; background:#ffffff;cursor:hand}
+.tree_over      {height:16px; padding:2 3 0 3; color:#000000; background:#f4faff;cursor:hand}
+.tree_down      {height:16px; padding:2 3 0 3; color:#000000; background:#ffffff;cursor:default}
